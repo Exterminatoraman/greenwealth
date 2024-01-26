@@ -1,5 +1,5 @@
-import 'package:greenwealth/Donate.dart';
-import 'package:greenwealth/Profile.dart';
+import 'package:blooddonation/Donate.dart';
+import 'package:blooddonation/Profile.dart';
 import 'package:flutter/material.dart';
 import 'Request.dart';
 class homescreen extends StatefulWidget {
@@ -25,7 +25,7 @@ class _homescreenState extends State<homescreen> {
 
       appBar: AppBar(
         backgroundColor: const Color(0xFFF52646),
-        title: const Text("greenwealth",style: TextStyle(color: Colors.white),),
+        title: const Text("PULSE",style: TextStyle(color: Colors.white),),
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Image.asset("images/Drop 2.png",scale: 1.5,),
